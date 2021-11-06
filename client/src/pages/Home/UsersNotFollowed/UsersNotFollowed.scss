@@ -1,0 +1,16 @@
+@import "../../../scss";
+
+.users-not-followed {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+
+  &__user {
+    margin-top: 20px;
+    color: $font-dark;
+
+    img {
+      margin-right: 15px !important;
+    }
+  }
+}
